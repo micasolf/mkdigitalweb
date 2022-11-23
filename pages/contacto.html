@@ -72,24 +72,45 @@
                 </div>
                 <div class="inforight">
                     <form action="">
-                        <input type="text" id="fname" name="fname" placeholder="Nombre">
-                        <input type="text" id="lname" name="lname" placeholder="Apellido"><br>
-                        <input type="text" id="fname" name="fname" placeholder="Email">
-                        <input type="text" id="lname" name="lname" placeholder="Número de teléfono"><br>
+                        <label for="name" class="form-label"></label>
+                        <input type="text" id="name" class="form-control" placeholder="Nombre">
+                        <label for="surname" class="form-label"></label>
+                        <input type="text" id="surname" class="form-control" placeholder="Apellido">
+                        <label for="email" class="form-label"></label>
+                        <input type="text" id="email" class="form-control" placeholder="Email">
+                        <label for="phone" class="form-label"></label>
+                        <input type="text" id="phone" class="form-control" placeholder="Telefono">
                     </form>
                 </div>
-                <div>
+                <div class="interesting">
                     <h4>Estoy interesado en:</h4>
                     <form>
-                        <input type="radio" id="html" name="fav_language" value="HTML">
-                        <label for="html">Redes Sociales</label>
-                        <input type="radio" id="css" name="fav_language" value="CSS">
-                        <label for="css">Fotografía</label>
-                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                        <label for="javascript">Campañas Publicitarias</label>
-                        <input type="radio" id="html" name="fav_language" value="HTML">
-                        <label for="html">Branding de marca</label><br>
-                        <input type="submit" value="Enviar">
+                        <div class="form-check">
+
+                            <input class="form-check-input" type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Redes</label>
+                        </div>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input" type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">Fotografía</label>
+                        </div>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input" type="radio" id="javascript" name="fav_language"
+                                value="JavaScript">
+                            <label for="javascript">Campañas</label>
+                        </div>
+
+                        <div class="form-check">
+
+                            <input class="form-check-input" type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Branding</label><br>
+                        </div>
+                        <input class="btn-footer" type="submit" value="Enviar">
+
                     </form>
                 </div>
             </div>
