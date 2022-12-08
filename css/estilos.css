@@ -300,6 +300,8 @@ main .galery-container {
       object-fit: cover; }
   main .galery-container .box-image:nth-child(3) {
     grid-row-start: span 2; }
+  main .galery-container .box-image:nth-child(4) {
+    grid-column-end: span 2; }
 
 main .container-info h2 {
   padding: 20px;

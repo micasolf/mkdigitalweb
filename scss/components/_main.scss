@@ -304,6 +304,7 @@ main {
       grid-row-start: span 2;
     }
     .box-image:nth-child(4) {
+      grid-column-end: span 2;
     }
   }
   .container-info {
