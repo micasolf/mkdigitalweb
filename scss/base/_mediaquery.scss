@@ -1,0 +1,77 @@
+
+@media (max-width: 961px) {
+    .home .container-home .home-text h2{
+        font-size: 55px !important;
+    }
+    .home .container-home .home-text .home-paragraph{
+        font-size: 14px !important;
+    }
+    .home .container-home .home-text h1{
+        font-size: 40px !important;
+    }
+    .home .container-home .img{
+        width: 400px !important;
+        height: 400px !important;
+    }
+}
+@media (max-width: 860px) {
+    .home .container-home{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .home .container-home .home-text{
+        justify-content: center !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+    .container-info .info{
+        display: grid !important;
+        grid-template-columns: none !important;
+        grid-gap: 15px !important;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .container__footer .box__footer {
+        display: none ;
+    }
+    .container__footer .box_footer h3,h5{
+        display: none ;
+    }
+    .container__footer .box_footer .phone-number-footer{
+        display: none ;
+    }
+    .container__footer .box_footer .direction-footer{
+        display: none ;
+    }
+    .container__footer .box_footer{
+        text-align: center !important;
+        justify-content: center !important;
+        display: flex !important;
+        font-size: 14px !important;
+    }
+    .container__footer .box__footer a{
+        display: none;
+    }
+    footer .copyright{
+        font-size: 10px !important;
+    }
+    .quehacemos div .quehacemos-text {
+        width: 70% !important;
+        font-size: 14px !important;
+    }
+    .quehacemos .grid-container{
+        color: #808080 !important;
+        font-size: 14px !important;
+        text-align: center !important;
+        justify-content: center !important;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+        display: grid !important;
+        grid-template-columns:100% !important;
+        gap: 40px 50px !important;
+    }
+    .container__footer .newsletter{
+        display: none;
+    }
+}

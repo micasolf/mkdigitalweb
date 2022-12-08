@@ -1,5 +1,5 @@
 header {
-    .navbar-mk {
+  .navbar-mk {
     margin: 30px 30px 30px 30px;
     text-align: center;
     border-radius: 20px;
@@ -7,5 +7,80 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 12px;
+    div {
+      a {
+        text-decoration: none;
+        color: white;
+        align-self: center;
+      }
+
+      .btnnav {
+        border-color: none;
+      }
+
+      .sections {
+        justify-content: right;
+
+        ul {
+          list-style: none;
+          font-size: 14px;
+          margin-right: 15px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          li {
+            display: inline-block;
+            margin: 10px;
+
+            a {
+              text-decoration: none;
+              color: white;
+              align-self: center;
+            }
+          }
+        }
+      }
     }
+  }
+
+  .navbarr-mk {
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(51, 0, 25);
+    background-color: #7f5675;
+    padding: 12px;
+    div {
+      a {
+        text-decoration: none;
+        color: white;
+        align-self: center;
+      }
+
+      .btnnav {
+        border-color: none;
+      }
+
+      .sections {
+        justify-content: right;
+
+        ul {
+          list-style: none;
+          font-size: 14px;
+          margin-right: 15px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          li {
+            display: inline-block;
+            margin: 10px;
+
+            a {
+              text-decoration: none;
+              color: white;
+              align-self: center;
+            }
+          }
+        }
+      }
+    }
+  }
 }
